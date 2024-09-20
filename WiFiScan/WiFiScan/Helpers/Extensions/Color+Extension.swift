@@ -28,4 +28,22 @@ public extension Color {
     var cF42719: Color {
         Color("cF42719")
     }
+    
+    // MARK: - Circle colors Not Active Featch -
+    /// #292C29
+    var c292C29: Color {
+        Color("c292C29")
+    }
+    /// #1E201E
+    var c1E201E: Color {
+        Color("c1E201E")
+    }
+    /// #181818
+    var c181818: Color {
+        Color("c181818")
+    }
+    /// #151515
+    var c151515: Color {
+        Color("c151515")
+    }
 }

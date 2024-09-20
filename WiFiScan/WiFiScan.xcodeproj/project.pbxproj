@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6CBAD97F2C9C5F8B00242AAD /* WiFiScanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBAD97E2C9C5F8B00242AAD /* WiFiScanApp.swift */; };
-		6CBAD9812C9C5F8B00242AAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBAD9802C9C5F8B00242AAD /* ContentView.swift */; };
+		6CBAD9812C9C5F8B00242AAD /* FetcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBAD9802C9C5F8B00242AAD /* FetcherView.swift */; };
 		6CBAD9832C9C5F9100242AAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CBAD9822C9C5F9100242AAD /* Assets.xcassets */; };
 		6CBAD9862C9C5F9100242AAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CBAD9852C9C5F9100242AAD /* Preview Assets.xcassets */; };
 		6CE55C932C9D71F00081681F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CE55C912C9D71F00081681F /* Localizable.strings */; };
@@ -25,7 +25,7 @@
 /* Begin PBXFileReference section */
 		6CBAD97B2C9C5F8B00242AAD /* WiFiScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiFiScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CBAD97E2C9C5F8B00242AAD /* WiFiScanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiScanApp.swift; sourceTree = "<group>"; };
-		6CBAD9802C9C5F8B00242AAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6CBAD9802C9C5F8B00242AAD /* FetcherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetcherView.swift; sourceTree = "<group>"; };
 		6CBAD9822C9C5F9100242AAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CBAD9852C9C5F9100242AAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6CE55C922C9D71F00081681F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 			children = (
 				6CE55C8C2C9D71AE0081681F /* App */,
 				6CE55C8D2C9D71B80081681F /* Generated */,
-				6CBAD9802C9C5F8B00242AAD /* ContentView.swift */,
+				6CE55CAA2C9D7A5E0081681F /* FetcherModule */,
 				6CE55CA42C9D77070081681F /* Helpers */,
 				6CE55C8F2C9D71CE0081681F /* Fonts */,
 				6CE55C902C9D71D80081681F /* Strings */,
@@ -142,6 +142,22 @@
 				6CE55CA82C9D794C0081681F /* Color+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6CE55CAA2C9D7A5E0081681F /* FetcherModule */ = {
+			isa = PBXGroup;
+			children = (
+				6CE55CAB2C9D7A660081681F /* View */,
+			);
+			path = FetcherModule;
+			sourceTree = "<group>";
+		};
+		6CE55CAB2C9D7A660081681F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6CBAD9802C9C5F8B00242AAD /* FetcherView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +261,7 @@
 				6CE55CA92C9D794C0081681F /* Color+Extension.swift in Sources */,
 				6CE55C982C9D72BE0081681F /* Fonts+Generated.swift in Sources */,
 				6CE55CA72C9D77210081681F /* Font+Extension.swift in Sources */,
-				6CBAD9812C9C5F8B00242AAD /* ContentView.swift in Sources */,
+				6CBAD9812C9C5F8B00242AAD /* FetcherView.swift in Sources */,
 				6CE55C992C9D72BE0081681F /* Strings+Generated.swift in Sources */,
 				6CBAD97F2C9C5F8B00242AAD /* WiFiScanApp.swift in Sources */,
 			);
