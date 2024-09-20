@@ -35,13 +35,22 @@ internal enum Asset {
       }
     }
     internal static let c111411 = ColorAsset(name: "c111411")
+    internal static let c203008 = ColorAsset(name: "c203008")
     internal static let caee67F = ColorAsset(name: "cAEE67F")
     internal static let cb5B8B5 = ColorAsset(name: "cB5B8B5")
     internal static let cebeee9 = ColorAsset(name: "cEBEEE9")
     internal static let cf42719 = ColorAsset(name: "cF42719")
   }
   internal enum Images {
-    internal static let wiFi = ImageAsset(name: "Wi-Fi")
+    internal enum Status {
+      internal static let fetch = ImageAsset(name: "Fetch")
+      internal static let success = ImageAsset(name: "Success")
+      internal static let tap = ImageAsset(name: "Tap")
+    }
+    internal enum WiFi {
+      internal static let wiFiActive = ImageAsset(name: "WiFiActive")
+      internal static let wiFiNotActive = ImageAsset(name: "WiFiNotActive")
+    }
   }
 }
 // swiftlint:enable identifier_name line_length nesting type_body_length type_name
