@@ -5,3 +5,18 @@
   Created by Kirill Manuilenko on 20.09.24.
   
 */
+
+// MARK: - Fetcher screen -
+"fetcher.navBar" = "Fetcher";
+"fetcher.title.tap" = "Tap on the button to fetch todos";
+"fetcher.title.loading" = "It’ll take a couple of seconds";
+"fetcher.title.success" = "The fetch successfully completed.";
+"fetcher.button.show" = "Show Results";
+
+// MARK: - Todos screen -
+"todos.navBar" = "Todos";
+"todos.title.tap" = "Tap on the todo to change status";
+"todos.title.butter" = "Buy butter";
+"todos.title.bread" = "Buy bread";
+"todos.section.notCompleted" = "Not completed";
+"todos.section.completed" = "Completed";
