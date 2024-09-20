@@ -32,6 +32,10 @@ internal enum L10n {
   internal enum Todos {
     /// Todos
     internal static let navBar = L10n.tr("Localizable", "todos.navBar", fallback: "Todos")
+    internal enum Button {
+      /// Done
+      internal static let dome = L10n.tr("Localizable", "todos.button.dome", fallback: "Done")
+    }
     internal enum Section {
       /// Completed
       internal static let completed = L10n.tr("Localizable", "todos.section.completed", fallback: "Completed")
@@ -39,10 +43,6 @@ internal enum L10n {
       internal static let notCompleted = L10n.tr("Localizable", "todos.section.notCompleted", fallback: "Not completed")
     }
     internal enum Title {
-      /// Buy bread
-      internal static let bread = L10n.tr("Localizable", "todos.title.bread", fallback: "Buy bread")
-      /// Buy butter
-      internal static let butter = L10n.tr("Localizable", "todos.title.butter", fallback: "Buy butter")
       /// Tap on the todo to change status
       internal static let tap = L10n.tr("Localizable", "todos.title.tap", fallback: "Tap on the todo to change status")
     }

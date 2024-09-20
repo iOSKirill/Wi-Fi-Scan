@@ -21,6 +21,19 @@ class FetcherViewModel: ObservableObject {
 
     private let networkService: AlamofireManagerProtocol = AlamofireManager()
     
+    init() {
+        reset()
+    }
+    
+    // Reset view
+    func reset() {
+        todos = []
+        fetchStatus = .idle
+        isLoading = false
+        isSwitchEnabled = true
+        isSwitchOn = true
+    }
+    
     // Fetch data from URL
     func fetchTodos() {
         fetchStatus = .loading

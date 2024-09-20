@@ -42,6 +42,7 @@ internal enum Asset {
     internal static let cf42719 = ColorAsset(name: "cF42719")
   }
   internal enum Images {
+    internal static let backButton = ImageAsset(name: "BackButton")
     internal enum Status {
       internal static let fetch = ImageAsset(name: "Fetch")
       internal static let success = ImageAsset(name: "Success")

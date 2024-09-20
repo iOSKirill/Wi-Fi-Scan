@@ -71,7 +71,8 @@ struct FetcherView: View {
     var switchPanel: some View {
         VStack {
             HStack {
-                NavigationLink(destination: EmptyView()) {
+                NavigationLink(destination: ResultView(todos: $viewModel.todos)
+                                                .environmentObject(viewModel)) {
                     VStack {
                         Text(L10n.Fetcher.Button.show)
                             .font(.appMedium(of: 14))

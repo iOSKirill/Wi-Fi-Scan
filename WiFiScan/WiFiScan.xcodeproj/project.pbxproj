@@ -28,6 +28,8 @@
 		6CE55CBB2C9D847E0081681F /* FetcherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE55CBA2C9D847E0081681F /* FetcherViewModel.swift */; };
 		6CE55CBE2C9D8C7A0081681F /* FetchStatus+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE55CBD2C9D8C780081681F /* FetchStatus+Enum.swift */; };
 		6CE55CC22C9DA33D0081681F /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE55CC12C9DA33D0081681F /* ResultView.swift */; };
+		6CE55CC52C9DAC890081681F /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE55CC42C9DAC890081681F /* BackButton.swift */; };
+		6CE55CC72C9DB4D70081681F /* TodoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE55CC62C9DB4D70081681F /* TodoRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		6CE55CBA2C9D847E0081681F /* FetcherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetcherViewModel.swift; sourceTree = "<group>"; };
 		6CE55CBD2C9D8C780081681F /* FetchStatus+Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FetchStatus+Enum.swift"; sourceTree = "<group>"; };
 		6CE55CC12C9DA33D0081681F /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		6CE55CC42C9DAC890081681F /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		6CE55CC62C9DB4D70081681F /* TodoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				6CE55CB42C9D81200081681F /* Constants.swift */,
+				6CE55CC32C9DAC580081681F /* CustomViews */,
 				6CE55CA52C9D77120081681F /* Extensions */,
 				6CE55CBC2C9D8C570081681F /* Enums */,
 			);
@@ -228,6 +233,15 @@
 				6CE55CC12C9DA33D0081681F /* ResultView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		6CE55CC32C9DAC580081681F /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				6CE55CC42C9DAC890081681F /* BackButton.swift */,
+				6CE55CC62C9DB4D70081681F /* TodoRow.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,6 +350,7 @@
 			files = (
 				6CE55CB82C9D84210081681F /* TodoItem.swift in Sources */,
 				6CE55C9A2C9D72BE0081681F /* XCAssets+Generated.swift in Sources */,
+				6CE55CC72C9DB4D70081681F /* TodoRow.swift in Sources */,
 				6CE55CA92C9D794C0081681F /* Color+Extension.swift in Sources */,
 				6CE55CBE2C9D8C7A0081681F /* FetchStatus+Enum.swift in Sources */,
 				6CE55C982C9D72BE0081681F /* Fonts+Generated.swift in Sources */,
@@ -346,6 +361,7 @@
 				6CE55C992C9D72BE0081681F /* Strings+Generated.swift in Sources */,
 				6CBAD97F2C9C5F8B00242AAD /* WiFiScanApp.swift in Sources */,
 				6CE55CBB2C9D847E0081681F /* FetcherViewModel.swift in Sources */,
+				6CE55CC52C9DAC890081681F /* BackButton.swift in Sources */,
 				6CE55CB52C9D81200081681F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,5 +10,5 @@ import Foundation
 struct TodoItem: Identifiable, Decodable {
     let id: Int
     let title: String
-    let completed: Bool
+    var completed: Bool
 }

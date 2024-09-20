@@ -16,7 +16,6 @@
 // MARK: - Todos screen -
 "todos.navBar" = "Todos";
 "todos.title.tap" = "Tap on the todo to change status";
-"todos.title.butter" = "Buy butter";
-"todos.title.bread" = "Buy bread";
 "todos.section.notCompleted" = "Not completed";
 "todos.section.completed" = "Completed";
+"todos.button.dome" = "Done";
