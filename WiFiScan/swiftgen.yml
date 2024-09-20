@@ -1,0 +1,27 @@
+## String ##
+ strings:
+  inputs:
+     - WiFiScan/Strings/en.lproj
+  outputs:
+     - templateName: structured-swift5
+       output: WiFiScan/Generated/Strings+Generated.swift
+       params:
+         enumName: L10n
+
+## Assets ##
+ xcassets:
+   inputs:
+     - WiFiScan/Assets.xcassets
+   outputs:
+     - templateName: swift5
+       params:
+         forceProvidesNamespaces: true
+       output: WiFiScan/Generated/XCAssets+Generated.swift
+
+## Fonts ##
+ fonts:
+  inputs:
+     - WiFiScan/Fonts
+  outputs:
+     - templateName: swift5
+       output: WiFiScan/Generated/Fonts+Generated.swift
